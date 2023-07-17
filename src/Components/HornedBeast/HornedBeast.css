@@ -1,17 +1,16 @@
 .hornedBeast {
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  align-items: center;
 }
 
 img {
-    max-width: 500px;
-    margin-bottom: 1rem;
+  max-width: 500px;
+  margin-bottom: 1rem;
 }
 
 h2 {
-    font-size: 2rem;
-    margin-bottom: 1rem;
+  font-size: 2rem;
+  margin-bottom: 1rem;
 }
-
