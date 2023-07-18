@@ -1,17 +1,50 @@
-.hornedBeast {
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto;
-    align-items: center;
+.beastContainer {
+  border: 1px solid rgb(46, 45, 45);
 }
 
 img {
-    max-width: 500px;
-    margin-bottom: 1rem;
+  width: 250px;
+  height: 150px;
+  object-fit: cover;
+  object-position: 65% 35%;
+  margin-bottom: 1rem;
 }
 
 h2 {
-    font-size: 2rem;
-    margin-bottom: 1rem;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  background-color: rgb(29, 2, 78);
 }
 
+p {
+  font-size: 1.25em;
+}
+
+.clickHeart {
+  font-size: 1em;
+}
+
+@media (min-width: 800px) {
+  img {
+    width: 350px;
+    height: 250px;
+  }
+
+  p {
+    font-size: 1.5em;
+  }
+
+  .clickHeart {
+    font-size: 1.1em;
+  }
+}
+
+@media (min-width: 1024px) {
+  img {
+    width: 450px;
+    height: 300px;
+    object-fit: cover;
+    object-position: 65% 35%;
+    margin-bottom: 1rem;
+  }
+}

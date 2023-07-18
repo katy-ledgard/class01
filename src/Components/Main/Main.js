@@ -1,13 +1,11 @@
 import React from "react";
 import HornedBeast from "../HornedBeast/HornedBeast";
-// import Rhino from "../../Images/rhino.jpg";
-// import Bison from "../../Images/bison.jpg";
 import "./Main.css";
 import data from "../../data.json";
 
 export default function Main() {
   return (
-    <div className="main">
+    <div className="main gridContainer">
       <HornedBeast
         title={data[0].title}
         imgUrl={data[0].image_url}

@@ -9,16 +9,23 @@ export default function HornedBeast({ title, imgUrl, description }) {
   }
 
   return (
-    <div className="hornedBeast">
-      <h2>{title}</h2>
-      <img
-        onClick={handleFaveClicks}
-        src={imgUrl}
-        alt={description}
-        title={title}
-      ></img>
-      <p>{description}</p>
-      <p>&#10084; {faves}</p>
+    <div className="beastContainer">
+      <section className="hornedBeast">
+        <h2>{title}</h2>
+        <img
+          // onClick={handleFaveClicks}
+          src={imgUrl}
+          alt={description}
+          title={title}
+        ></img>
+        <div className="beastInfo">
+          <p>{description}</p>
+          <p className="clickHeart">Click the heart to favourite the image.</p>
+          <p>
+            <span onClick={handleFaveClicks}>&#10084;</span> {faves}
+          </p>
+        </div>
+      </section>
     </div>
   );
 }

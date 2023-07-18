@@ -84,14 +84,9 @@ By using CSS Grid and working mobile first to make it responsive.
 #### Time Estimate
 
 Number and name of feature: 3 CSS Grid  
-Estimate of time needed to complete: _____  
-Start time: _____  
-Finish time: _____  
-Actual time needed to complete: _____  
+Estimate of time needed to complete: 2 hours  
+Start time: 14.27
+Finish time: 15.23  
+Actual time needed to complete: 56 minutes 
 
----
-
-### image credit
-- [Photo by Casey Allen](https://www.pexels.com/photo/gray-rhinoceros-in-close-up-photography-16040/)
-- [Photo by patrice schoefolt](https://www.pexels.com/photo/a-close-up-shot-of-a-bison-5577234/)
 
