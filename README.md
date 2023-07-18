@@ -1,13 +1,14 @@
 # 301 Class 01 Lab
 
+This project is part of the Tech Educators Full Stack MERN Bootcamp.
+
+By the end of this module, you will create an application that displays images and information of horned animals. This application will allow you to filter the beasts by number of horns and chose your favorite beast.
+
 ## Day One
 
 For this lab, we are learning how to use React, how to make components and how to pass props to those components.
 
 ## Day Two
-
-
-By the end of this module, you will create an application that displays images and information of horned animals. This application will allow you to filter the beasts by number of horns and chose your favorite beast.
 
 In this class, your goal is to use the JSON file provided to display the title, image and description of each horned beast in your application.
 
@@ -37,10 +38,10 @@ The Main component should pass props for the title, image and description to eac
 #### Time Estimate
 
 Number and name of feature: 1 Display Images  
-Estimate of time needed to complete: _____  
-Start time: _____  
-Finish time: _____  
-Actual time needed to complete: _____  
+Estimate of time needed to complete: 45 minutes
+Start time: 13:47pm 
+Finish time: 14:04  
+Actual time needed to complete: 17 minutes 
 
 ### Feature #2: Allow Users to Favorite Individual Beasts
 
@@ -60,11 +61,10 @@ Put a heart in each HornedBeast component with the number of “Favorites” nex
 #### Time Estimate
 
 Number and name of feature: Allow Users to Favourite Individual Beasts  
-Estimate of time needed to complete: _____  
-Start time: _____  
-Finish time: _____  
-Actual time needed to complete: _____  
-
+Estimate of time needed to complete: 1 hour 
+Start time: 14:05 
+Finish time: 14:15  
+Actual time needed to complete: 10 minutes
 
 ### Feature 3: CSS Grid
 
