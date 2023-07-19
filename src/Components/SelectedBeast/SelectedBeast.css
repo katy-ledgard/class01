@@ -1,0 +1,15 @@
+.selectedBeast {
+  position: absolute;
+  top: 50%;
+  bottom: 50%;
+}
+
+.sbContainer {
+  position: relative;
+}
+
+.sbContainer img {
+}
+
+.cross {
+}

@@ -9,6 +9,10 @@ img {
   object-position: 65% 35%;
   margin-bottom: 1rem;
 }
+/* 
+img:nth-child(10) {
+    object-position: 90% 10%;
+} */
 
 h2 {
   font-size: 2rem;
@@ -27,6 +31,7 @@ p {
 .heart {
   cursor: pointer;
 }
+
 
 @media (min-width: 800px) {
   img {
