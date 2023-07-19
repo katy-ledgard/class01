@@ -22,7 +22,7 @@ export default function HornedBeast({ title, imgUrl, description }) {
           <p>{description}</p>
           <p className="clickHeart">Click the heart to favourite the image.</p>
           <p>
-            <span onClick={handleFaveClicks}>&#10084;</span> {faves}
+            <span className="heart" onClick={handleFaveClicks}>&#10084;</span> {faves}
           </p>
         </div>
       </section>

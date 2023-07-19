@@ -89,4 +89,31 @@ Start time: 14.27
 Finish time: 15.23  
 Actual time needed to complete: 56 minutes 
 
+## Day Three
 
+For this class you will be adding a feature to your Gallery Of Horns that allows the user to click on an image and display it as a modal.
+
+### Feature #1: Display a Modal
+
+**Why are we implementing this feature?**  
+As a user, I want the image to be displayed in a larger size and with the description shown so that I can view the details of a single image.
+
+**What are we going to implement?**  
+Given that a user wants to view the details of the image  
+When the user clicks on an individual image  
+Then the image should render larger on the screen with the description displayed  
+
+**How are we implementing it?**  
+Import the data.json file into your App component and send that data into the Main component  
+Map over the JSON data in your Main component to render each beast  
+Send a function into your Main component that allows the user to update state in the App  
+Create a SelectedBeast component and include it in your App  
+Use the state in the App to render an individual beast in a Modal in the SelectedBeast component  
+
+#### Time Estimate
+
+Number and name of feature: Display a Modal
+Estimate of time needed to complete: 3 hours
+Start time:  
+Finish time:  
+Actual time needed to complete: 
