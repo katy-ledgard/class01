@@ -12,7 +12,7 @@ export default function SelectedBeast({ beastModalContent, closeBeastModal }) {
           title={beastModalContent.title}
         ></img>
         <p>{beastModalContent.description}</p>
-        <span className="cross" onClick={closeBeastModal}>
+        <span className="close-btn" onClick={closeBeastModal}>
           X
         </span>
       </div>

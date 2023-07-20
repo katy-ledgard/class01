@@ -4,11 +4,11 @@ This project is part of the Tech Educators Full Stack MERN Bootcamp.
 
 By the end of this module, you will create an application that displays images and information of horned animals. This application will allow you to filter the beasts by number of horns and chose your favorite beast.
 
-## Day One
+## Lab One
 
 For this lab, we are learning how to use React, how to make components and how to pass props to those components.
 
-## Day Two
+## Lab Two
 
 In this class, your goal is to use the JSON file provided to display the title, image and description of each horned beast in your application.
 
@@ -87,7 +87,7 @@ Start time: 14.27
 Finish time: 15.23  
 Actual time needed to complete: 56 minutes
 
-## Day Three
+## Lab Three
 
 For this class you will be adding a feature to your Gallery Of Horns that allows the user to click on an image and display it as a modal.
 
@@ -116,3 +116,29 @@ Start time: 13:28
 Finish time: 16:40  
 Actual time needed to complete: 3 hours 12 minutes (including a demo for this task)  
 _Note:_ CSS still needs to be added to the Modal
+
+## Lab 4
+
+This is the last class of our Gallery Of Horns. You have horned creatures displaying on the page. When you click on a beast, you increase its favorites and display it as a modal. We will be adding one more piece of functionality: filtering by numbers of horns.
+
+### Feature 1. Filter by Numbers of Horns
+
+**Why are we implementing this feature?**  
+As a user, I want to be able to view the beasts by the number of horns  
+
+**What are we going to implement?**  
+Given that a user is presented with filtering options  
+When the user clicks on one option  
+Then the images should be filtered accordingly  
+
+**How are we implementing it?**  
+Using the Form component, build a drop down menu so that the user can choose to filter by number of horns.  
+When the user chooses one of the options, the correct images should be displayed.  
+
+#### Time Estimate
+
+Number and name of feature: Filter by Numbers of Horns   
+Estimate of time needed to complete: 3 hours    
+Start time: 11.34 (stopped at 12 for Lunch)  restarted: 1pm.
+Finish time: 16.01 (including demo with this task)   
+Actual time needed to complete: 3 hours 25 minutes 

@@ -2,10 +2,10 @@ import React from "react";
 import HornedBeast from "../HornedBeast/HornedBeast";
 import "./Main.css";
 
-export default function Main({ data, handleBeastModal }) {
+export default function Main({ beastData, handleBeastModal }) {
   return (
     <main className="main gridContainer">
-      {data.map((beast, key) => (
+      {beastData.map((beast, key) => (
         <HornedBeast
           key={beast._id}
           title={beast.title}

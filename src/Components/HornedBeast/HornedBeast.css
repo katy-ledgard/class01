@@ -7,12 +7,9 @@ img {
   height: 195px;
   object-fit: cover;
   object-position: 65% 35%;
+  margin: 0 auto 1rem auto;
   margin-bottom: 1rem;
 }
-/* 
-img:nth-child(10) {
-    object-position: 90% 10%;
-} */
 
 h2 {
   font-size: 2rem;
@@ -31,7 +28,6 @@ p {
 .heart {
   cursor: pointer;
 }
-
 
 @media (min-width: 800px) {
   img {
