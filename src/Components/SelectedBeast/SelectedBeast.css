@@ -4,12 +4,14 @@
   left: 0;
   bottom: 0;
   right: 0;
+  width: 100vw;
+  height: 100vh;
 }
 
 .sbContainer {
   background-color: rgb(68, 114, 202);
   width: 80vw;
-  position: absolute;
+  position: fixed;
   top: 50%;
   left: 50%;
   /* -moz-transform: translate(-50%, -50%);
@@ -61,5 +63,9 @@
 @media (min-width: 1024px) {
   .sbContainer img {
     height: 600px;
+    object-position: center;
+  }
+  .sbContainer {
+    width: 65vw;
   }
 }
